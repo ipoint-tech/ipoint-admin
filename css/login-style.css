@@ -1,0 +1,44 @@
+body.login {
+	background-image: url('../img/login-bg-1366.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#login {
+    margin-top: 8% !important;
+    padding: 20px !important;
+}
+
+body.login div#login h1 a {
+	background-image: url('../img/ipoint-logo-480x347.png') !important;
+	background-size: 240px !important;
+	height: 160px !important;
+	width: 240px !important;
+}
+
+.login #login_error, 
+.login .message, 
+.login .success {
+    color: #fff !important;
+    border-radius: 5px;
+    background-color: #2929299c !important;
+}
+
+.login form {
+    color: #fff !important;
+    background: #2929299c !important;
+    border-radius: 10px;
+}
+
+.login #nav,
+.login #backtoblog {
+	color: #fff !important;
+}
+
+.login .button-primary {
+    background: #1a3c68 !important;
+    border-color: #fff !important;
+	text-shadow: none;
+}
