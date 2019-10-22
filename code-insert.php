@@ -12,7 +12,7 @@ function ipoint_add_code_to_header() {
   // insert code here using echo or in between the closing and opening php tags
   echo '<!-- echo into header -->';
   ?>
-	<!-- code placed directly in header -->
+  <!-- code placed directly in header -->
   <?php
 }
 
