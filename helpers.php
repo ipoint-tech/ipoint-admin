@@ -6,9 +6,9 @@
 
 
  // add page-title shortcode
- add_shortcode('page-title', 'page-title_function');
+ add_shortcode('page_title', 'page_title_function');
 
-function page-title_function() {
+function page_title_function() {
   return get_the_title();
 }
 
