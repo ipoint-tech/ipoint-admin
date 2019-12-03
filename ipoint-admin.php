@@ -36,10 +36,15 @@ function custom_login_stylesheet() {
 //This loads the function above on the login page
 add_action( 'login_enqueue_scripts', 'custom_login_stylesheet' );
 
+/**
+ * Enqueue a script with jQuery as a dependency.
+ */
+function ipoint_custom_scripts() {
+    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ) );
+}
+add_action( 'wp_enqueue_scripts', 'ipoint_custom_scripts' );
+
 
 // include code insert functions
 require_once('code-insert.php');
-
 require_once('helpers.php');
-
-
