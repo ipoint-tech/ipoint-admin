@@ -12,10 +12,19 @@ function ipoint_add_code_to_header() {
   // insert code here using echo or in between the closing and opening php tags
   echo '<!-- echo into header -->';
   ?>
-  <!-- code placed directly in header -->
+  <!-- code placed directly in header - replace this line with GTM Code -->
   <?php
 }
 
+
+/*
+** for this section, there will be different options based on the theme being used, as wp_body_open is not fully adopted in all themes
+**
+** for xtheme use: x_before_site_begin
+** for enfold use: ava_after_body_opening_tag
+**
+** (replacing wp_body_open)
+*/
 
 // add code to body
 add_action('wp_body_open', 'ipoint_add_code_to_body');
@@ -24,7 +33,7 @@ function ipoint_add_code_to_body() {
  // insert code here using echo or in between the closing and opening php tags
  echo '<!-- echo into body -->';
  ?>
- <!-- code placed directly in body -->
+ <!-- code placed directly in body - replace this line with GTM Code -->
  <?php
 }
 
