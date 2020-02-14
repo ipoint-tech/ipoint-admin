@@ -8,26 +8,6 @@
  * Author URI: https://ipoint-tech.com
  */
 
- /**
-  *
-  * Contributing Authors:
-  * - Devin Egger
-  *
-  * Plugin Changelog
-  *
-  *  1.1.0  9/23/19  Plugin Created
-  *  - added iPoint login screen customization
-  *
-  *  1.1.1  9/24/19  Code Inserter Added
-  *  - added starting building block code for eventually adding code insert capabilites from the WP-Admin
-  *
-  *  1.1.2  12/3/17  Custom JS Added
-  *  - added framework for inserting custom javascript and JQUERY using custom.js file
-  *
-  */
-
-
-
 
 // iPoint Login Screen Customization
 
